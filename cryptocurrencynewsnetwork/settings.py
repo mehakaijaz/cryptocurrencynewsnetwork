@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-nx7f8^%8$hzeu#x16&-l5+r$%s41wwt&$__6aa&^rtz$46af4o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['127.0.0.1','.vercel.app']
 
 
 # Application definition
@@ -57,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cryptocurrencynewsnetwork.wsgi.application'
+WSGI_APPLICATION = 'cryptocurrencynewsnetwork.wsgi.app'
 
 
 # Database
