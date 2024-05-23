@@ -18,7 +18,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "versel_deploymet/wsgi.py"
+        "dest": "cryptocurrencynewnetwork/wsgi.py"
       }
     ]
   }
